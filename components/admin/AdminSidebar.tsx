@@ -25,7 +25,7 @@ export default function AdminSidebar() {
     <aside className="w-56 border-r border-white/5 bg-cyber-card/50 flex flex-col sticky top-0 h-screen flex-shrink-0">
       <div className="p-5 border-b border-white/5">
         <div className="font-display text-sm font-black text-cyber-cyan tracking-wider" style={{ fontFamily: 'Orbitron, monospace' }}>
-          LISCONVASTAG
+          SPRIB3
         </div>
         <div className="text-white/30 text-xs font-mono mt-0.5">Admin Control</div>
       </div>
