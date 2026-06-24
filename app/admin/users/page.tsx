@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 // In production, these would come from a DB. For now, .env config.
 const DEMO_KEYS = [
-  { id: '1', key: 'SIGNAL2024', siteUrl: 'all', label: 'Default Key', active: true },
-  { id: '2', key: 'AVIATOR01', siteUrl: 'all', label: 'Key 2', active: true },
+  { id: '1', key: 'SIGNAL2026', siteUrl: 'all', label: 'Default Key', active: true },
+  { id: '2', key: 'AVIATOR02', siteUrl: 'all', label: 'Key 2', active: true },
   { id: '3', key: 'LISCKEY99', siteUrl: 'all', label: 'Key 3', active: true },
 ]
 
@@ -24,7 +24,7 @@ export default function AdminUsersPage() {
     <div className="min-h-screen bg-cyber-bg flex">
       <aside className="w-56 border-r border-white/5 bg-cyber-card/50 p-3 sticky top-0 h-screen">
         <div className="p-2 mb-4">
-          <div className="font-display text-sm font-black text-cyber-cyan tracking-wider">LISCONVASTAG</div>
+          <div className="font-display text-sm font-black text-cyber-cyan tracking-wider">SPRIB3</div>
         </div>
         {[
           { href: '/admin/dashboard', label: '◈ Dashboard' },
@@ -80,7 +80,7 @@ export default function AdminUsersPage() {
             <ol className="text-sm text-white/50 font-mono space-y-1 list-decimal list-inside">
               <li>Open <span className="text-cyber-cyan">.env.local</span></li>
               <li>Find <span className="text-cyber-cyan">CLIENT_ACCESS_KEYS</span></li>
-              <li>Add your new key: <span className="text-cyber-cyan">SIGNAL2024,NEWKEY123</span></li>
+              <li>Add your new key: <span className="text-cyber-cyan">SIGNAL2026,AVIATOR02</span></li>
               <li>Restart the dev server</li>
             </ol>
           </div>
